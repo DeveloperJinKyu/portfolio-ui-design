@@ -1,0 +1,39 @@
+body {
+  margin: 0;
+  padding: 0;
+  background: #7663E8;
+  font-family: 'GT Walsheim Pro', Arial, sans-serif;
+}
+.cover {
+  width: 100vw;
+  height: 100vh;
+  background: #7663E8;
+  position: relative;
+  overflow: hidden;
+}
+.portfolio-title {
+  position: absolute;
+  left: 868px;
+  top: 396px;
+  width: 1840px;
+  height: 504px;
+  color: #fff;
+  font-family: 'GT Walsheim Pro', Arial, sans-serif;
+  font-size: 220px;
+  font-weight: 500;
+  line-height: 1.145;
+  text-align: center;
+  z-index: 2;
+}
+.portfolio-dark {
+  position: absolute;
+  left: 196px;
+  top: 1076px;
+  width: 3183px;
+  height: 9083px;
+  background: #000;
+  z-index: 1;
+  border-radius: 40px;
+  opacity: 0.9;
+  display: none; /* 실제 메인 커버에서는 숨김 처리 */
+}
